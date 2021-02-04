@@ -1,0 +1,165 @@
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header strat*/
+	.menu ul li a{
+		text-align: right;
+		padding: 0px 0px !important;
+	}
+	/*slider strat*/
+	.slider {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.slider_content h1 {
+    font-size: 25px;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+	.slider_content {
+    margin-top: 20px;
+}
+.slider_icon li i {
+	margin: auto;
+    font-size: 30px !important;
+}
+/*features strat*/
+/*features strat*/
+.features {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.s_text {
+    text-align: center;
+}
+.mt_60 {
+    margin-top: 30px;
+}
+.s_icon {
+    font-size: 40px;
+}
+.c_p {
+    font-size: 18px;
+    word-spacing: 1px;
+}
+/*contact strat*/
+
+.f_submit {
+    margin-top: 20px;
+}
+/*contact strat*/
+.contact {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.c-icon i {
+    margin: 0px 4px !important;
+    font-size: 30px;
+}
+/*footer strat*/
+footer {
+    padding-bottom: 70px;
+}
+.f_1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+}
+
+/*/ Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header strat*/
+	.menu ul li a{
+		text-align: right;
+		padding: 0px 0px !important;
+	}
+	/*slider strat*/
+	.slider {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+	.slider_content {
+    margin-top: 20px;
+}
+.slider_icon li i {
+    font-size: 30px !important;
+}
+/*features strat*/
+.features {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.s_text {
+    text-align: center;
+}
+.mt_60 {
+    margin-top: 40px;
+}
+.s_icon {
+    font-size: 40px;
+}
+.c_p {
+    font-size: 18px;
+    word-spacing: 1px;
+}
+/*contact strat*/
+.contact {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.c-icon i {
+    margin: 0px 7px !important;
+    font-size: 35px;
+}
+/*footer strat*/
+footer {
+    padding-bottom: 80px;
+}
+.f_1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*header strat*/
+	.menu ul li a{
+		text-align: right;
+		padding: 0px 0px !important;
+	}
+	/*slider strat*/
+	.slider_content h1 {
+    font-size: 31px;
+}
+
+/*contact strat*/
+.c-icon i {
+    margin: 0px 7px !important;
+    font-size: 35px;
+}
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
